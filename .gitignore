@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+.env/
+.env.*
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Packaging / build artifacts
+*.egg-info/
+build/
+dist/
+
+# Scrapy runtime artifacts
+.scrapy/
+*.log
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# (Optional) Python version managers — keep or ignore intentionally
+.python-version
+.tool-versions
+
+# IMPORTANT (uv):
+# Do NOT ignore uv.lock (commit it for reproducible installs)
+# uv.lock
